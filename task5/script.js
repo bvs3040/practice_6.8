@@ -1,16 +1,15 @@
 const form=document.querySelector('form');
-//const duplicateField=document.querySelector('#duplicateField');
-//const button=document.querySelector('button');
+let duplicateField=document.querySelector('#duplicateField');
 
+form.addEventListener('keyup', (event) => {
+    duplicateField.textContent=event.target.value;
+});
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
-    //const form=document.querySelector('form');
-
     console.log(form.elements.userText.value);
     form.reset();
-
-
+    duplicateField.textContent="";
 });
 
 
@@ -22,9 +21,6 @@ form.addEventListener('submit', (event) => {
 
     
 
-    /*console.log(input);
-    console.log(duplicateField);
-    console.log(button);*/
     
 
 
