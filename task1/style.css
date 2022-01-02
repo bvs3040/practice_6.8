@@ -1,0 +1,11 @@
+p {
+    margin: 300px auto;
+    border: 3px solid blue; 
+    background-color:darkgrey;
+    width: 400px;
+    font-size: 2em;
+    font-weight: 600;
+    color: mediumblue;
+    text-align: center;
+
+}
