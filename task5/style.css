@@ -1,0 +1,28 @@
+button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+#duplicateField {
+    font-size: 25px;
+    color: #4caf50;
+    font-style: italic;
+}
+label {
+    font-size: 2rem;
+    color: #4caf50;
+}
+input {
+    font-size: 17px;
+    padding: 10px 10px;
+    border: 5px solid #4caf50;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
