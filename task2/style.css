@@ -1,0 +1,10 @@
+.click {
+    padding: 5px ;
+    border: 2px dotted black;
+   text-align: center;
+    width: 100px;
+}
+code {
+    font-weight: 500;
+    font-size: 1.5em;
+}
